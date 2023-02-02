@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "demo-repository-client-side-solution",
+    "id": "aa2b52c3-9a5e-46e1-8199-54c485a9dfe8",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "demo-repository description"
+      },
+      "longDescription": {
+        "default": "demo-repository description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "demo-repository Feature",
+        "description": "The feature that activates elements of the demo-repository solution.",
+        "id": "99758f78-f2cb-46db-9a8f-3908fbcb463a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/demo-repository.sppkg"
+  }
+}
